@@ -2,6 +2,7 @@ import Foundation
 import SwiftUI
 import Combine
 
+// https://docs.livekit.io/agents/overview/ (great resource to look at on the communication protocol works)
 class UIUpdateClient: ObservableObject {
     private var webSocket: URLSessionWebSocketTask?
     private var session: URLSession?
